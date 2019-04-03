@@ -53,9 +53,9 @@
 </div>
 <div id="button" ontouchstart="start()"></div>
 <script>
-  let timeEle = document.getElementById('time');
-  let now = Date.now();
-  let isStart = false;
+  let timeEle = document.getElementById('time')
+  let now = Date.now()
+  let isStart = false
 
   function startFresh () {
     if (isStart) requestAnimationFrame(freshTime)
